@@ -14,8 +14,8 @@
 <body>
     <header>
         <a href="#" class="logo">Portfolio</a>
-        <div class="toggle"></div>
-        <ul>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
@@ -201,6 +201,13 @@
             var header = document.querySelector('header');
             header.classList.toggle('sticky', window.scrollY > 0);
         });
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
     </script>
 </body>
 

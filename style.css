@@ -387,4 +387,85 @@ header.sticky ul li a {
         filter: invert(1);
     }
 
+    section {
+        padding: 100px 50px;
+    }
+
+    .banner {
+        padding: 150px 50px 100px;
+    }
+
+    .banner h2 {
+        font-size: 1.5em;
+    }
+
+    .banner h3 {
+        font-size: 1em;
+    }
+
+    .btn {
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .heading h2 {
+        font-size: 24px;
+    }
+
+    .contentBx h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .w50 {
+        margin-bottom: 20px;
+    }
+
+    .services .content .servicesBx {
+        margin: 10px;
+    }
+
+    .work .content .workBx {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .testimonial .content .testimonialBx {
+        max-width: calc(100% - 20px);
+        padding: 40px 20px;
+        margin: 10px;
+        background: #2196f3;
+    }
+
+    .testimonial .content .testimonialBx h3 {
+        margin-top: 20px;
+    }
+
+    .contactInfo {
+        margin: 20px 0;
+    }
+
+}
+
+@media(max-width: 600px) {
+
+    header,
+    header.sticky {
+        padding: 20px 20px;
+    }
+
+    .banner {
+        padding: 150px 20px 100px;
+    }
+
+    section {
+        padding: 100px 20px;
+    }
+
+
 }
